@@ -54,5 +54,4 @@ spec:
         set -e
         python -m pip install --upgrade pip wheel
         pip install -r requirements.txt
-        nosetests $(params.args)11;rgb:ffff/ffff/ffff
-       fi
+        nosetests $(params.args)
